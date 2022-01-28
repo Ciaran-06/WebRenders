@@ -1,5 +1,14 @@
 {
-  "devDependencies": {
-    "three": "^0.137.4"
-  }
+    "devDependencies": {
+        "assemble": "^0.17.1",
+        "assemble-cli": "^0.1.2",
+        "three": "^0.137.4"
+    },
+    "scripts": {
+        "build": "assemble",
+        "start": "serve -s build"
+    },
+    "dependencies": {
+        "serve": "^13.0.2"
+    }
 }
